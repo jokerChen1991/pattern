@@ -6,8 +6,8 @@ package com.jokerchen.pattern.behavior.interpreter;
  */
 public class AndExpression implements Expression {
 
-    private Expression expr1 = null;
-    private Expression expr2 = null;
+    private Expression expr1;
+    private Expression expr2;
 
     public AndExpression(Expression expr1, Expression expr2){
         this.expr1 = expr1;
